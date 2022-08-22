@@ -1,0 +1,28 @@
+html{ 
+    background-color: aliceblue; 
+    font-family: "Arial Narrow";
+    font-size: 18px;
+}
+
+.columnas{
+    column-count: 2;
+    column-gap: normal;
+    column-rule:4px solid gray;
+}
+
+.nombre{  
+    font-family: verdana;
+    text-align: center;
+}
+
+
+div h2{
+    font-family: Arial;
+    font-size: 25px;
+}
+
+div p{ font-size: 15px; }
+
+.image{
+    border-style: dashed;
+}
