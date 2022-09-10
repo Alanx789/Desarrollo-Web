@@ -1,0 +1,20 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import './index.css';
+import { MovieApp } from './MovieApp';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+
+  <React.StrictMode>
+
+    {/* Se encarga de manejar URLs de forma interna */}
+    <BrowserRouter>
+      <MovieApp/>
+    </BrowserRouter>
+    
+  </React.StrictMode>
+
+);
+
