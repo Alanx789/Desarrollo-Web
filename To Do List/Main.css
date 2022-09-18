@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(
+        90deg,
+        rgb(167, 39, 25) 0%,
+        rgb(215, 221, 44) 100%
+    )
+}
+
+.toDoList{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    min-height: 520px;
+    background: black;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+}
+
+h1{
+    margin: 32px;
+    color: white;
+    font-size: 40;
+}
+
+.complete{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.TaskAdder{
+    margin-bottom: 32px;
+}
+
+.AddInput{
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: #fff;
+}
+.AddInput::placeholder{
+    color: #e2e2e2;
+}
+.addButton{
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+        90deg,
+        rgb(54, 212, 230) 0%,
+        rgb(181, 50, 214) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.individualTask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px;
+    color:#fff;
+    background: linear-gradient(
+
+    );
+}
+.Erase{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
