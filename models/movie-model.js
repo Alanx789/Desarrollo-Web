@@ -6,9 +6,13 @@ const movie = new Schema (
     {
         name: {type: String, required: true},
         time: { time: [String], required: true},
-        name: {rating: Number, required: true}
+        rating: {rating: Number, required: true},
+        author: {rating: String, required: false},
     },
     {timestamps: true}
 );
 
-module.exports = mongoose.model('movies', movie);
+//Exportando lo que hicimos 
+module.exports = mongoose.model('movies', movie)
+
+//Pasamos nombre y modelo
